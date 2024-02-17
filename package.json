@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "compile-types": "pnpm dlx ts-simplify sanity/sanity.config.ts sanity-schema.ts --overwrite"
   },
   "dependencies": {
     "@sanity-typed/types": "^6.3.2",
